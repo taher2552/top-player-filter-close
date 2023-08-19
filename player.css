@@ -261,6 +261,7 @@
     margin-top: 0.5rem;
     padding: 1rem;
     margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 
 .top-pagination-text {
@@ -272,6 +273,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    
 }
 
 .top-pg-box {
@@ -302,10 +304,23 @@
     .top-fb-text {
         font-size: 0.875rem;
     }
+
+
 }
 
 @media only screen and (max-width: 302px) {
     .top-fb-text {
         font-size: 0.7rem;
     }
+}
+
+@media only screen and (max-width: 360px){
+  .hidden1{
+    display: none;
+  }
+}
+@media only screen and (max-width: 330px){
+  .hidden1, .hidden2{
+    display: none;
+  }
 }
